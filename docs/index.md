@@ -1,7 +1,7 @@
 Wiki in Markdown
 =================
 
-Hello, this is a wiki which can be written as plain markdown files.
+Hello, this is a wiki which can be written as plain markdown files. Checkout the project at [github](https://github.com/jackysee/markdown-wiki)
 
 ## Open the wiki
 
