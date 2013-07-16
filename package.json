@@ -1,0 +1,16 @@
+{
+  "name": "markdown-wiki",
+  "version": "0.0.0",
+  "description": "Wiki in markdown",
+  "main": "gruntfile.js",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-connect": "~0.3.0",
+    "grunt-contrib-watch": "~0.4.4",
+    "grunt-cli": "~0.1.9"
+  },
+  "author": "JackySee",
+  "license": "BSD"
+}
