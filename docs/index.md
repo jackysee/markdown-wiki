@@ -23,16 +23,38 @@ To create a new wiki page, create the corresponding `.md` doc in `docs\` folder 
 
 Click on this [other page](#otherpage) for example.
 
+## Github Flavor
+
+The markdown parse we used is `Marked`. It supports github flavoured markdown. e.g. you can do code block with fenced block:
+
+	```javascript
+	function hi(){
+		return "Hello!";
+	}
+	```
+It would look like
+
+```javascript
+function hi(){
+	return "Hello!";
+}
+```
+
 ## Live-reload
 
 The default `grunt` task would also kick start live-reload. So you can create and edit markdown files in your editor and watch the browser reload per save.
 
 ## Edit page and style
 
-Just edit `index.html` for additional elements like headers/footers. The style for markdown is in `markdown.css` and all the rules are contexted under `.markdown` class. Edit the page style in `app.css`
+Just edit `index.html` for additional elements like headers/footers. The style for markdown is in `markdown.css` and all the rules are contexted under `.markdown` class. The code block color is at `highlight.min.css`. Edit the page style in `app.css`.
 
-## Lib used
+To keep thing simple there is no css concat minify job defined in grunt so that no build step is needed for hosting files.
+
+TO keep
+
+## Library used
 
 - [requirejs](http://requirejs.org)
-- [PageDown](http://code.google.com/p/pagedown/wiki/PageDown)
+- [Marked](https://github.com/chjj/marked)
+- [highlightjs](https://github.com/isagalaev/highlight.js)
 
