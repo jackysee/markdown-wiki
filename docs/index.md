@@ -25,13 +25,14 @@ Click on this [other page](#otherpage) for example.
 
 ## Github Flavor
 
-The markdown parse we used is `Marked`. It supports github flavoured markdown. e.g. you can do code block with fenced block:
+The markdown parse we used is `Marked`. It supports github flavoured markdown. e.g. you can do code block with fenced code block:
 
 	```javascript
 	function hi(){
 		return "Hello!";
 	}
 	```
+
 It would look like
 
 ```javascript
@@ -49,8 +50,6 @@ The default `grunt` task would also kick start live-reload. So you can create an
 Just edit `index.html` for additional elements like headers/footers. The style for markdown is in `markdown.css` and all the rules are contexted under `.markdown` class. The code block color is at `highlight.min.css`. Edit the page style in `app.css`.
 
 To keep thing simple there is no css concat minify job defined in grunt so that no build step is needed for hosting files.
-
-TO keep
 
 ## Library used
 
