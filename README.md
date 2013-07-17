@@ -5,8 +5,6 @@ Hello, this is a wiki which can be written as plain markdown files. Check out th
 
 ## Open the wiki
 
-The wiki can either be started with or without server. 
-
 Locally just open the `index.html` in browser. Or you can use the run `grunt` at command line. See more on [server](#server).
 
 Therefore it's easy to host your wiki. e.g. just put these files in an public dropbox folder and get that link.
